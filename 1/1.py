@@ -10,3 +10,8 @@ for i, num in enumerate(data):
     if(num != i + 1):
         print(num - 1)
         break
+
+################################################################
+# Using a set:
+data = set(data)
+print(set(range(1, 100000)) - data)
